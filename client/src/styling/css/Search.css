@@ -1,0 +1,35 @@
+input {
+  font-family: lavigne-text, sans-serif;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+  color: rgb(174, 134, 37);
+}
+
+::-webkit-input-placeholder {
+  color: rgb(174, 134, 37);
+}
+
+input[type="text"] {
+  color: rgb(174, 134, 37);
+}
+
+input[type="text"]:focus {
+  border: 5px solid;
+}
+
+label {
+  color: rgb(174, 134, 37);
+  font-family: lavigne-text, sans-serif;
+}
+
+.btn-dark {
+  background-color: rgb(174, 134, 37);
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+}
